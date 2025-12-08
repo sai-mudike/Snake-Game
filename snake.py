@@ -14,7 +14,6 @@ class Snake:
         self.create_snake()
         self.head=self.segement_parts[0]
     
-    
             
     def add_segment(self,pos):
         segement=Turtle('square')
